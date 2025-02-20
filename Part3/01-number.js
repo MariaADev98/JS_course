@@ -48,6 +48,21 @@ console.log(Math.abs(-42)) //для получения абсолютного з
 console.log(Math.max(2, 5, 4363, 35346, 22, 99999)) //нахождение максимального 
 console.log(Math.floor(myNum)) //округляет в меньшую сторону 
 console.log(Math.ceil(myNum)) //округляет в меньшую сторону 
+console.log(Math.round(myNum)) //округляет до ближайшего значения 
+console.log(Math.trunc(myNum)) //возвращает только целую часть числа 
+console.log(Math.random())
+
+
+
+function getRandomNumber(min, max){
+    return Math.floor(Math.random() * (max - min + 1) + min) 
+
+}
+const num1 = getRandomNumber(10, 100)
+console.log(num1)
+
+
+
 
 
 
